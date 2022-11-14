@@ -55,7 +55,7 @@ namespace TrainingSkeleton_SonDXT
                                                                 + "\nBài12: Input: 1 chuỗi và 1 số (count)\r\nNếu chuỗi null -> Thông báo: Chuỗi bị null\r\nNếu chuỗi không có ký tự nào -> Thông báo: Chuỗi rỗng\r\nNếu chuỗi toàn ký tự space -> Thông báo: Chuỗi Space\r\nNếu số < 0 -> Thông báo: Số nhỏ hơn 0\r\nCòn lại: Bỏ các ký tự trắng ở đầu chuỗi, cắt lấycount ký tự ĐẦU và in kết quả ra màn hình\r\n"
                                                                 + "\nBài13: Như 12\r\nCòn lại: Bỏ các ký tự trắng ở đầu và cuối chuỗi, cắt lấy count ký tự ĐẦU và in kết quả ra màn hình \n"
                                                                 + "\nBài14: Như 12\r\nCòn lại: Bỏ các ký tự trắng ở đầu và cuối chuỗi, cắt lấy count ký tự CUỐI và in kết quả ra màn hình \n"
-                                                                + "\n0.Nhập vào 0 để chọn mục khác."
+                                                                + "\n0.Nhập vào 0 để chọn mục khác.\n"
                                                                 );
                                                 num2 = Convert.ToInt32(Console.ReadLine());
                                                 switch (num2)
@@ -219,7 +219,7 @@ namespace TrainingSkeleton_SonDXT
                                                                 + "\nBài4: Input: 2 số (X, Y) \r\nHiển thị kết quả: X chia Y bằng ... dư...\n"
                                                                 + "\nBài5: Input: 1 số\r\nNếu số <= 0 -> Thông báo: Số <= 0\r\nCòn lại: Nếu là số nguyên tố -> Thông báo: Số nguyên tố, ngược lại thông báo “Không phải số nguyên tố”\r\n"
                                                                 + "\nBài6: Input: 1 chuỗi.\r\nNếu chuỗi là chuỗi số Int32 -> Thông báo: Chuỗi số.\r\nNgược lai -> Thông báo: Không phải chuỗi số\r\n"
-                                                                + "\n0.Nhập vào 0 để chọn mục khác."
+                                                                + "\n0.Nhập vào 0 để chọn mục khác.\n"
                                                                 );
                                                 num2 = Convert.ToInt32(Console.ReadLine());
                                                 switch (num2)
@@ -287,7 +287,7 @@ namespace TrainingSkeleton_SonDXT
                                                 Console.WriteLine("\nLựa chọn bài để kiểm tra: ");
                                                 Console.WriteLine("\nBài1: Input: 1 chuỗi.\r\nNếu chuỗi là chuỗi số thực (gồm các số, dấu ngăn cách phần nghìn là “,”, dấu phân cách thập phân là “.”): Chuỗi hợp lệ.\r\nNgược lai -> Thông báo: Không phải chuỗi decimal\r\nVí dụ chuỗi hợp lệ: 100; 1,000,000; 1,000.5\n"
                                                                 + "\nBài2: Input: số decimal.\r\nChuyển số input thành string và in ra màn hình theo định dạng dấu ngăn cách phần nghìn là “,”, dấu phân cách thập phân là “.”, làm tròn 02 số sau dấu thập phân\n"
-                                                                + "\n0.Nhập vào 0 để chọn mục khác."
+                                                                + "\n0.Nhập vào 0 để chọn mục khác.\n"
                                                                 );
                                                 num2 = Convert.ToInt32(Console.ReadLine());
                                                 switch (num2)
@@ -333,7 +333,7 @@ namespace TrainingSkeleton_SonDXT
                                                                 + "\nBài8: Input: 1 ngày.\r\nHiển thị cuối tháng này là thứ mấy\r\n"
                                                                 + "\nBài9: Input: 1 ngày.\r\nHiển thị cuối năm nay là thứ mấy\n"
                                                                 + "\nBài10: Input: 2 ngày.\r\nHiển thị 2 ngày này cách nhau bao nhiêu ngày\r\n"
-                                                                + "\n0.Nhập vào 0 để chọn mục khác."
+                                                                + "\n0.Nhập vào 0 để chọn mục khác.\n"
                                                                 );
                                                 num2 = Convert.ToInt32(Console.ReadLine());
                                                 switch (num2)
@@ -426,7 +426,7 @@ namespace TrainingSkeleton_SonDXT
                                             {
                                                 Console.WriteLine("\nLựa chọn bài để kiểm tra: ");
                                                 Console.WriteLine("\nBài1: Input: 1 chuỗi.\r\nNếu chuỗi là “true” hoặc “false” -> Chuyển thành kiểu bool và thông báo: Chuỗi hợp lệ.\r\nNgược lai -> Thông báo: Không phải chuỗi bool\n"
-                                                                + "\n0.Nhập vào 0 để chọn mục khác."
+                                                                + "\n0.Nhập vào 0 để chọn mục khác.\n"
                                                                 );
                                                 num2 = Convert.ToInt32(Console.ReadLine());
                                                 switch (num2)
@@ -482,7 +482,7 @@ namespace TrainingSkeleton_SonDXT
                                                                 + "\nBài3: Nhập 1 Dictionary, 1 mã SV và tên SV\r\nNếu mã SV đó chưa có trong Dictionary, thêm SV đó vào Dictionary, thông báo: Đã thêm \r\nSV có mã..., tên... vào Dictionary\r\nNgược lại thông báo: Đã có SV có mã...trong Dictonary\r\n\n"
                                                                 + "\nBài4: Nhập 1 Dictionary, 1 mã SV và tên SV\r\nNếu mã SV đó chưa có trong Dictionary, thêm SV đó vào Dictionary, thông báo: Đã thêm \r\nSV có mã..., tên... vào Dictionary\r\nNgược lại thay tên SV cũ bằng tên SV mới, thông báo: Đã thay tên SV có mã...trong Dictonary từ... thành...\r\n\n"
                                                                 + "\nBài5: Nhập 1 Dictionary, 1 mã SV\r\nNếu mã SV đó có trong Dictionary, bỏ mã SV đó khỏi Dictionary\r\nNgược lại thông báo: Không có SV có mã...\r\n\n"
-                                                                + "\n0.Nhập vào 0 để chọn mục khác."
+                                                                + "\n0.Nhập vào 0 để chọn mục khác.\n"
                                                                 );
                                                 num2 = Convert.ToInt32(Console.ReadLine());
                                                 switch (num2)
@@ -549,7 +549,7 @@ namespace TrainingSkeleton_SonDXT
                                                                 + "\nBài7: Input: danh sách 10 số bất kỳ và 1 số lớn hơn 0 (X)\r\nIn X số cuối ra màn hình\n"
                                                                 + "\nBài8: Input: danh sách 10 số bất kỳ và 1 số lớn hơn 0 (X)\r\nIn X số cuối ra màn hình theo chiều ngược lại\r\n"
                                                                 + "\nBài9: Input: 1 số lớn hơn 0 (X)\r\nTính dãy Fibonaci của số nhập vào\r\nIn 10 giá trị kết quả ra màn hình\r\nTrả về dãy đã tạo\n"
-                                                                + "\n0.Nhập vào 0 để chọn mục khác."
+                                                                + "\n0.Nhập vào 0 để chọn mục khác.\n"
                                                                 );
                                                 num2 = Convert.ToInt32(Console.ReadLine());
                                                 switch (num2)
