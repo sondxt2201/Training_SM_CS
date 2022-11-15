@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ad\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Training\\Training_CS\\TrainingSkeleton_SonDXT\\TrainingSkeleton_SonDXT.csproj",
+      "projectUniqueName": "D:\\Training_SM\\Training\\Training_SM_CS\\TrainingSkeleton_SonDXT.csproj",
       "projectName": "TrainingSkeleton_SonDXT",
-      "projectPath": "D:\\Training\\Training_CS\\TrainingSkeleton_SonDXT\\TrainingSkeleton_SonDXT.csproj",
-      "packagesPath": "C:\\Users\\ad\\.nuget\\packages\\",
-      "outputPath": "D:\\Training\\Training_CS\\TrainingSkeleton_SonDXT\\obj\\",
+      "projectPath": "D:\\Training_SM\\Training\\Training_SM_CS\\TrainingSkeleton_SonDXT.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Training_SM\\Training\\Training_SM_CS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
