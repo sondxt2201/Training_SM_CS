@@ -141,7 +141,7 @@ namespace TrainingSkeleton_SonDXT
                                                             Console.WriteLine("\nBài9: Như 1.\r\nThay thế các đoạn \"ABC\" có trong chuỗi đầu vào bằng \"DEF\", CÓ phân biệt hoa thường\r\n");
                                                             Console.WriteLine("Nhập vào chuỗi: ");
                                                             var str = Console.ReadLine();
-                                                            teststringEx.string6(str);
+                                                            teststringEx.string9(str);
                                                             Console.ReadLine();
                                                             break;
                                                         }
@@ -181,7 +181,7 @@ namespace TrainingSkeleton_SonDXT
                                                             var str = Console.ReadLine();
                                                             Console.WriteLine("Nhập vào số: ");
                                                             var count = Convert.ToInt32(Console.ReadLine());
-                                                            teststringEx.string12(str, count);
+                                                            teststringEx.string13(str, count);
                                                             Console.ReadLine();
                                                             break;
                                                         }
@@ -192,7 +192,7 @@ namespace TrainingSkeleton_SonDXT
                                                             var str = Console.ReadLine();
                                                             Console.WriteLine("Nhập vào số: ");
                                                             var count = Convert.ToInt32(Console.ReadLine());
-                                                            teststringEx.string12(str, count);
+                                                            teststringEx.string14(str, count);
                                                             Console.ReadLine();
                                                             break;
                                                         }

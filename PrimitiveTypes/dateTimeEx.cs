@@ -147,7 +147,7 @@ namespace TrainingSkeleton_SonDXT.PrimitiveTypes
                 b = DateTime.TryParse(Console.ReadLine(), out timeResult);
             }
 
-            DateTime lastDayOfMonth = new DateTime(timeResult.Year, timeResult.Month + 1, 1).AddDays(-1);
+            DateTime lastDayOfMonth = new DateTime(timeResult.Year, timeResult.Month, DateTime.DaysInMonth(timeResult.Year, timeResult.Month));
             Console.WriteLine("Ngày cuối cùng của tháng là thứ " + lastDayOfMonth.DayOfWeek + ", ngày " + lastDayOfMonth.ToShortDateString());
 
         }
@@ -165,7 +165,7 @@ namespace TrainingSkeleton_SonDXT.PrimitiveTypes
                 Console.WriteLine("Dữ liệu nhập vào không đúng định dạng, hãy nhập lại");
                 b = DateTime.TryParse(Console.ReadLine(), out timeResult);
             }
-            DateTime lastDayOfYear = new DateTime(timeResult.Year + 1, 1, 1).AddDays(-1);
+            DateTime lastDayOfYear = new DateTime(timeResult.Year, 12, 31);
             Console.WriteLine("Ngày cuối cùng của năm là thứ " + lastDayOfYear.DayOfWeek + ", ngày " + lastDayOfYear.ToShortDateString());
 
         }
